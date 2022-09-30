@@ -1,0 +1,10 @@
+Exercício 4 (Teste de nome)
+nome = input('Digite seu nome: ')
+print('O tipo primitivo do que foi digitado é ', type(nome))
+print('O tipo primitivo do que foi digitado é ', nome.isspace())
+print('O tipo primitivo do que foi digitado é ', nome.isdigit())
+print('O tipo primitivo do que foi digitado é ', nome.isalpha())
+print('O tipo primitivo do que foi digitado é ', nome.isalnum())
+print('O tipo primitivo do que foi digitado é ', nome.isupper())
+print('O tipo primitivo do que foi digitado é ', nome.islower())
+print('O tipo primitivo do que foi digitado é ', nome.istitle())]
