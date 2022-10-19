@@ -1,0 +1,7 @@
+# Contagem regressiva com input do usuário
+from time import sleep
+contagem = int(input("Digite um número: "))
+for n in range(contagem, -1, -1):
+    print(n)
+    sleep(1)
+print('A contagem acabou')
