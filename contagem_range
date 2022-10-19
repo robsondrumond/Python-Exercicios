@@ -1,0 +1,4 @@
+# Exibir contagem em linha
+for n in range(2, 52, 2):
+    print(n, end=' ')
+print('Acabou')
