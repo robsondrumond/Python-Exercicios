@@ -1,0 +1,15 @@
+# Exercicio 52: Entre com valors. Ele exibe colorido quais são primos e informa.
+numero = int(input('Digite um numero inteiro: '))
+total = 0
+for c in range(1, numero +1):
+    if numero % c == 0:
+         print('\33[33m', end=' ')
+         total += 1
+    else:
+        print('\33[31m', end=' ')
+    print('{}' .format(c), end=' ')
+print('\n \33[m O número {} foi divisível {} vezes.' .format(numero, total))
+if total == 2:
+    print('O número foi divisível duas vezes, portanto ele é PRIMO')
+else:
+    print('O número foi divisível mais de duas vezes, portanto ele NÃO é PRIMO')
