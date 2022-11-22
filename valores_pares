@@ -1,0 +1,4 @@
+# Exercício 47: Exibe os valores pares de 0 a 50
+for n in range(2, 52, 2):
+    print(n, end=' ')
+print('Acabou')
