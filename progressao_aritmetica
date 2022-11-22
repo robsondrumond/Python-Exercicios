@@ -1,0 +1,11 @@
+# Exercício 51: Progressão aritimética  
+print('=' * 40)
+print('10 TERMOS DE UMA PROGRESSÃO ARITIMÉTICA')
+print('=' * 40)
+
+primeiro = int(input('Digite o primeiro termo: '))
+razao = int(input('Digite a razão: '))
+decimo = primeiro + (10 - 1) * razao
+for c in range(primeiro, decimo + razao, razao):
+    print('{} ' .format(c), end='- ')
+print('Acabou')
